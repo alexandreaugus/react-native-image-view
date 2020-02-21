@@ -6,21 +6,21 @@ const HIT_SLOP = {top: 15, left: 15, right: 15, bottom: 15};
 
 const styles = StyleSheet.create({
     closeButton: {
-        alignSelf: 'flex-end',
-        height: 24,
-        width: 24,
-        borderRadius: 12,
+        alignSelf: 'flex-start',
+        height: 26,
+        width: 26,
+        borderRadius: 13,
         backgroundColor: 'rgba(0,0,0,0.2)',
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: 25,
-        marginRight: 15,
+        marginLeft: 16.5,
     },
     closeButton__text: {
         backgroundColor: 'transparent',
-        fontSize: 25,
-        lineHeight: 25,
-        color: '#FFF',
+        fontSize: 26,
+        lineHeight: 26,
+        color: 'rgb(0, 115, 207)',
         textAlign: 'center',
     },
 });
