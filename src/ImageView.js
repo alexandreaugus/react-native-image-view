@@ -782,7 +782,7 @@ export default class ImageView extends Component<PropsType, StateType> {
 
         return (
             <Modal
-                transparent
+
                 visible={isVisible}
                 animationType={animationType}
                 onRequestClose={this.close}

@@ -10,6 +10,7 @@ export default function createStyles({screenWidth, screenHeight}) {
             left: 0,
             right: 0,
             bottom: 0,
+            backgroundColor: 'white',
         },
         container: {
             width: screenWidth,
@@ -22,6 +23,7 @@ export default function createStyles({screenWidth, screenHeight}) {
             zIndex: 100,
             height: HEADER_HEIGHT,
             width: screenWidth,
+            backgroundColor: 'white',
         },
         imageContainer: {
             width: screenWidth,
@@ -39,6 +41,7 @@ export default function createStyles({screenWidth, screenHeight}) {
             left: 0,
             right: 0,
             zIndex: 100,
+            backgroundColor: 'white',
         },
     });
 }
